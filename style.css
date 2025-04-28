@@ -10,30 +10,31 @@ body {
 .container {
   background-color: #f0e8c2;
   border-radius: 1.5rem;
-  width: 50rem;
-  height: 90rem;
+  width: 90%;
+  max-width: 50rem;
+  height: auto;
   align-items: center;
   margin: 3rem auto;
+  padding: 1rem;
 }
 
 .receita{
-    width: 47rem;
-    height: 25rem;
+    width: 100%;
+    height: auto;
     border-radius: 1rem;
-    margin: 1.5rem 1.5rem 0 1.5rem;
+    margin: 1.5;
 }
 
 main{
-    margin: 0 1.5rem 1.5rem 1.5rem;
+    /*margin: 0 1.5rem 1.5rem 1.5rem;
     padding: 0 1.5rem 1.5rem 1.5rem;
+    line-height: 150%;*/
+    margin: 0;
+    padding: 1rem;
     line-height: 150%;
 }
 
-h1{
-    color: #291B1A;
-}
-
-h2{
+h1, h2{
     color: #291B1A;
 }
 
